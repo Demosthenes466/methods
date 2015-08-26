@@ -41,5 +41,11 @@ module Methods
 	# * b - an integer
 	#
 	# TODO - write sum_double
-
+	def sum_double(a, b)
+		if (a != b)
+			a+b
+		else
+			2 * (a + b)
+		end
+	end
 end
