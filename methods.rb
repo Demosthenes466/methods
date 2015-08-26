@@ -11,7 +11,9 @@ module Methods
 	# * vacation - true only if the student is on vacation
 	#
 	# TODO - write sleep_in?
-
+	def sleep_in?(weekday, vacation)
+		!weekday || vacation
+	end
 	# monkey_trouble?
 	#
 	# We have two monkeys, a and b, and the parameters a_smile and b_smile 
