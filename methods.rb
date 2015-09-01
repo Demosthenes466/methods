@@ -48,4 +48,16 @@ module Methods
 			2 * (a + b)
 		end
 	end
+
+	def diff21(x)
+		if (x < 21)
+			21-x
+		else
+			2*(21-x).abs
+		end
+	end
+
+	def parrot_trouble(hour)
+		
+
 end
